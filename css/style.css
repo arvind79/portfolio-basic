@@ -41,6 +41,25 @@ p {
     margin-bottom: 0;
 }
 
+.accent-text {
+    display: block;
+}
+
+.accent-text,
+.name,
+time {
+    color: #99D930;
+    font-weight: 900;
+}
+
+h1 .accent-text {
+    font-size: 80px;
+}
+
+h2 .accent-text {
+    font-size: 60px;
+}
+
 a {
     color: #99D930;
     font-weight: 900;
@@ -79,4 +98,10 @@ section {
 .btn:focus {
     background: #252525;
     color: #fff;
+}
+
+.inverse .btn:hover,
+.inverse .btn:focus {
+    background: #fff;
+    color: #252525;
 }
